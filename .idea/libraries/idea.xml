@@ -1,0 +1,18 @@
+<component name="libraryTable">
+  <library name="idea">
+    <ANNOTATIONS>
+      <root url="jar://$APPLICATION_HOME_DIR$/lib/jdkAnnotations.jar!/" />
+    </ANNOTATIONS>
+    <CLASSES />
+    <JAVADOC />
+    <NATIVE>
+      <root url="jar://$APPLICATION_HOME_DIR$/lib/winp-1.21-patched.jar!/" />
+    </NATIVE>
+    <SOURCES>
+      <root url="jar://$APPLICATION_HOME_DIR$/lib/trove4j_src.jar!/core/src" />
+      <root url="jar://$APPLICATION_HOME_DIR$/lib/trove4j_src.jar!/generated/src" />
+      <root url="jar://$APPLICATION_HOME_DIR$/lib/trove4j_src.jar!/test/src" />
+      <root url="jar://$APPLICATION_HOME_DIR$/lib/trove4j_src.jar!/util/src" />
+    </SOURCES>
+  </library>
+</component>

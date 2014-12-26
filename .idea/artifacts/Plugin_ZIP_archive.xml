@@ -1,0 +1,10 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="Plugin ZIP archive">
+    <output-path>$PROJECT_DIR$/out/artifacts/Plugin_ZIP_archive</output-path>
+    <root id="archive" name="dsl-preview.zip">
+      <element id="directory" name="dsl-preview">
+        <element id="artifact" artifact-name="Preview Plugin" />
+      </element>
+    </root>
+  </artifact>
+</component>

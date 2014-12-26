@@ -1,0 +1,21 @@
+<component name="ArtifactManager">
+  <artifact name="zip">
+    <output-path>$PROJECT_DIR$/out/artifacts/zip</output-path>
+    <root id="root">
+      <element id="archive" name="koan-preview.jar">
+        <element id="directory" name="koan-preview">
+          <element id="directory" name="lib">
+            <element id="library" level="project" name="gson-2.3" />
+            <element id="library" level="project" name="jeromq-0.3.4" />
+            <element id="archive" name="koan-preview.jar">
+              <element id="module-output" name="dsl-preview-plugin" />
+              <element id="directory" name="META-INF">
+                <element id="file-copy" path="$PROJECT_DIR$/src/META-INF/plugin.xml" />
+              </element>
+            </element>
+          </element>
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>

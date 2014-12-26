@@ -1,0 +1,36 @@
+<idea-plugin version="2">
+  <id>org.jetbrain.kotlin.android.dsl</id>
+  <name>Android DSL Preview</name>
+  <description>This plugin displays a layout preview for the Android Kotlin DSL.</description>
+  <version>1.0</version>
+  <vendor>JetBrains</vendor>
+
+  <idea-version since-build="8000"/>
+
+  <application-components>
+  </application-components>
+
+  <project-components>
+  </project-components>
+
+  <depends>org.jetbrains.kotlin</depends>
+  <depends>org.jetbrains.android</depends>
+
+  <actions>
+  </actions>
+
+  <extensions defaultExtensionNs="com.intellij">
+    <applicationService
+                    overrides="true"
+                    serviceInterface="org.jetbrains.android.uipreview.AndroidEditorSettings"
+                    serviceImplementation="org.jetbrains.kotlin.android.dslpreview.DslAndroidEditorSettings"/>
+  </extensions>
+    <project-components>
+        <component>
+            <implementation-class>org.jetbrains.kotlin.android.dslpreview.DslPreviewToolWindowManager</implementation-class>
+            <skipForDefaultProject/>
+            <headless-implementation-class></headless-implementation-class>
+        </component>
+
+    </project-components>
+</idea-plugin>

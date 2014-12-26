@@ -1,0 +1,18 @@
+<component name="ArtifactManager">
+  <artifact name="Preview Plugin">
+    <output-path>$PROJECT_DIR$/out/artifacts/Preview_Plugin</output-path>
+    <root id="root">
+      <element id="directory" name="lib">
+        <element id="artifact" artifact-name="Robowrapper" />
+        <element id="library" level="project" name="gson-2.3" />
+        <element id="library" level="project" name="jeromq-0.3.4" />
+        <element id="library" level="project" name="robolectric" />
+        <element id="archive" name="dsl-preview-plugin.jar">
+          <element id="module-output" name="message-bus" />
+          <element id="module-output" name="idea-plugin" />
+        </element>
+        <element id="library" level="project" name="junit-4.11" />
+      </element>
+    </root>
+  </artifact>
+</component>

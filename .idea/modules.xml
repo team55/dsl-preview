@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/dsl-preview.iml" filepath="$PROJECT_DIR$/dsl-preview.iml" />
+      <module fileurl="file://$PROJECT_DIR$/idea-plugin/idea-plugin.iml" filepath="$PROJECT_DIR$/idea-plugin/idea-plugin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/idea-runner/idea-runner.iml" filepath="$PROJECT_DIR$/idea-runner/idea-runner.iml" />
+      <module fileurl="file://$PROJECT_DIR$/message-bus/message-bus.iml" filepath="$PROJECT_DIR$/message-bus/message-bus.iml" />
+      <module fileurl="file://$PROJECT_DIR$/robowrapper/robowrapper.iml" filepath="$PROJECT_DIR$/robowrapper/robowrapper.iml" />
+    </modules>
+  </component>
+</project>
